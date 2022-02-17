@@ -2,9 +2,9 @@ class Colours {
 
     private val colours = listOf("Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet", "Black", "Silver")
 
-    fun getAll (): List<String>{
-        //TODO return the colours list
-        return listOf("this should return the colours list")
+    fun getAll (): List<String> {
+
+        return listOf("$colours")
     }
 
     fun numberOfColours (): Int{
@@ -51,6 +51,10 @@ class Colours {
         //TODO return true of the colour passed as a parameter is in the list and false otherwise
         // Note: the search should be case insensitive - if blue is passed as a parameter it should find Blue, BLUE etc.
         return false
+    }
+
+    fun add(colours: Colours) {
+
     }
 
     //TODO Write THREE additional functions of your choice that will perform some sort of
