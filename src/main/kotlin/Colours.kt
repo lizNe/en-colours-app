@@ -35,15 +35,16 @@ class Colours {
 
     }
 
+    /* Reference: https://kotlinlang.org/docs/constructing-collections.html#invoke-functions-on-other-collections */
     fun coloursWithSpecificNumberOfChars(size: Int) : List<String>{
-
-}
-
+        val largerThan6 = colours.filter { it.length >= 6 }
+        return (largerThan6)
     }
 
+    /* Reference: https://kotlinlang.org/docs/constructing-collections.html#invoke-functions-on-other-collections */
     fun coloursWithLessCharsThan(size: Int) : List<String>{
-        //TODO return the colours that have less chars than the number passed as s parameter
-        return listOf("this should return colours less than ${size} chars")
+        val lessThan6 = colours.filter { it.length < 6 }
+        return (lessThan6)
     }
 
     fun isColourInTheList(colour : String) : Boolean{
