@@ -8,8 +8,9 @@ class Colours {
     }
 
     fun numberOfColours (): Int{
+
         //TODO return the size of the colours list
-        return 0
+        return colours.count()
     }
 
     fun firstColour() : String{

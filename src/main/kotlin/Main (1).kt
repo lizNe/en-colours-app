@@ -22,16 +22,15 @@ fun main(args: Array<String>){
     print("The list is: ")
     println(colours.getAll())
 
-    print("The List has ___ elements stored")
-    println(colours.numberOfColours())
+    print("The List has ${colours.numberOfColours()} elements stored \n")
 
-    print("___ is the first colour in the list")
+    print("___ is the first colour in the list \n")
     println(colours.firstColour())
 
-    print("___ is the last colour in the list")
+    print("___ is the last colour in the list \n")
     print(colours.lastColour())
 
-    println("Sorted list is: ")
+    println("Sorted list is: \n ")
     print(colours.coloursInAplhabeticOrder())
 
     print("CAPITALISED list is:")
