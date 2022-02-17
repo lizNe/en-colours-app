@@ -31,14 +31,14 @@ class Colours {
     }
 
     fun coloursStartingWithLetter(letter: Char) : List<String>{
-        val letter = "B"
-        //TODO return the colours starting with the letter passed as a parameter
-        return listOf("${letter}")
+       return colours.filter{it.startsWith('B')}
+
     }
 
     fun coloursWithSpecificNumberOfChars(size: Int) : List<String>{
-        //TODO return the colours that have exactly the same number of chars as the number passed as a parameter
-        return listOf("this should return colours that have ${size} chars")
+
+}
+
     }
 
     fun coloursWithLessCharsThan(size: Int) : List<String>{

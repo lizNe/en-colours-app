@@ -30,13 +30,14 @@ fun main(args: Array<String>){
 
     println("Sorted list is: ${colours.coloursInAlphabeticOrder()} \n ")
 
-    print("CAPITALISED list is: ${colours.coloursInAllCapitals()} \n")
+    println("CAPITALISED list is: ${colours.coloursInAllCapitals()} \n")
 
 
-    println("Colours starting with specific letter ___ [ B was chosen ] \n")
-    print(colours.coloursStartingWithLetter('B'))
+    print("Colours starting with specific letter [ B was chosen ] \n")
+    println(colours.coloursStartingWithLetter('B'))
+    println("\n")
 
-    print("Colours with a specific number of chars ___ [ 6 was chosen] \n")
+    println("Colours with a specific number of chars ___ [ 6 was chosen] \n")
     println(colours.coloursWithSpecificNumberOfChars(6))
 
     println("___ have less than less 6 chars \n")
