@@ -55,9 +55,20 @@ class Colours {
         }
     }
 
+    fun forEachColour(){
+        for (colour in colours){
+            println("Colour: $colour")
+        }
+    }
+
+
+
+
     fun add(colours: Colours) {
 
-    }
+
+
+        }
 
     //TODO Write THREE additional functions of your choice that will perform some sort of
     // analysis on the colours list.

@@ -46,6 +46,8 @@ fun main(args: Array<String>){
 
 
     println("The list of colours, each printed on a new line is: \n")
+    println("${colours.forEachColour()}")
+
     //TODO Write Code here (below this comment) to print the list in this format:
     //    Colour: Red
     //    Colour: Orange
