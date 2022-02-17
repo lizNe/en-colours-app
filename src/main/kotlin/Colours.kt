@@ -4,12 +4,11 @@ class Colours {
 
     fun getAll (): List<String> {
 
-        return listOf("$colours")
+        return colours
     }
 
     fun numberOfColours (): Int{
 
-        //TODO return the size of the colours list
         return colours.count()
     }
 
