@@ -22,19 +22,18 @@ class Colours {
         return colours.last()
     }
 
-    fun coloursInAplhabeticOrder() : List<String>{
-        //TODO return the colours in alphabetical order
-        return listOf("this should return colours in alphabetic order")
+    fun coloursInAlphabeticOrder() : List<String>{
+        return colours.sorted()
     }
 
-    fun coloursInAllCapitals() : List<String>{
-        //TODO return the colours in ALL CAPS
-        return listOf("this should return colours in all capitals")
+    fun coloursInAllCapitals() : List<String> {
+        return colours.map { it.toUpperCase() }
     }
 
     fun coloursStartingWithLetter(letter: Char) : List<String>{
+        val letter = "B"
         //TODO return the colours starting with the letter passed as a parameter
-        return listOf("this should return colours that start with ${letter}")
+        return listOf("${letter}")
     }
 
     fun coloursWithSpecificNumberOfChars(size: Int) : List<String>{

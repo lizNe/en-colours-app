@@ -28,25 +28,24 @@ fun main(args: Array<String>){
 
     print("${colours.lastColour()} is the last colour in the list \n")
 
-    println("Sorted list is: \n ")
-    print(colours.coloursInAplhabeticOrder())
+    println("Sorted list is: ${colours.coloursInAlphabeticOrder()} \n ")
 
-    print("CAPITALISED list is:")
-    print(colours.coloursInAllCapitals())
+    print("CAPITALISED list is: ${colours.coloursInAllCapitals()} \n")
 
-    println("Colours starting with specific letter ___ [ B was chosen ]")
+
+    println("Colours starting with specific letter ___ [ B was chosen ] \n")
     print(colours.coloursStartingWithLetter('B'))
 
-    print("Colours with a specific number of chars ___ [ 6 was chosen]")
+    print("Colours with a specific number of chars ___ [ 6 was chosen] \n")
     println(colours.coloursWithSpecificNumberOfChars(6))
 
-    println("___ have less than less 6 chars ")
+    println("___ have less than less 6 chars \n")
     print (colours.coloursWithLessCharsThan(6))
 
-    println("True or false, is blue in the list: ")
+    println("True or false, is blue in the list: \n")
     print(colours.isColourInTheList("blue"))
 
-    println("The list of colours, each printed on a new line is:")
+    println("The list of colours, each printed on a new line is: \n")
     //TODO Write Code here (below this comment) to print the list in this format:
     //    Colour: Red
     //    Colour: Orange
