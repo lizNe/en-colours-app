@@ -71,6 +71,9 @@ class Colours {
 
     }
 
+    fun coloursInAllLower() : List<String> {
+        return colours.map { it.toLowerCase() }
+    }
 
 
 

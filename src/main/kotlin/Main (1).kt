@@ -50,6 +50,7 @@ fun main(args: Array<String>){
 
     println("The list of colours in Descending Order: ${colours.coloursInDescendingOrder()} \n")
     println("The first letter of each Colour occurs as follows: ${colours.countOccurrenceFirstLetter()} \n")
+    println("Lowercase list is: ${colours.coloursInAllLower()} \n")
 
     //TODO Write Code here (below this comment) to print the list in this format:
     //    Colour: Red
