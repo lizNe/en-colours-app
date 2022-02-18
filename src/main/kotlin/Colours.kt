@@ -1,3 +1,5 @@
+import java.util.*
+
 class Colours {
 
     private val colours = listOf("Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet", "Black", "Silver")
@@ -72,7 +74,7 @@ class Colours {
     }
 
     fun coloursInAllLower() : List<String> {
-        return colours.map { it.toLowerCase() }
+        return colours.map { it.lowercase(Locale.getDefault()) }
     }
 
 
