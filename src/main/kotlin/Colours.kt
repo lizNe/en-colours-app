@@ -61,14 +61,22 @@ class Colours {
         }
     }
 
+    fun coloursInDescendingOrder() : List<String>{
+        return colours.sortedDescending()
+    }
+
+    /* Reference https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/each-count.html */
+    fun countOccurrenceFirstLetter(): Map<Char, Int> {
+        return colours.groupingBy { it.first() }.eachCount()
+
+    }
 
 
 
-    fun add(colours: Colours) {
 
 
 
-        }
+
 
     //TODO Write THREE additional functions of your choice that will perform some sort of
     // analysis on the colours list.

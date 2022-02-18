@@ -46,7 +46,10 @@ fun main(args: Array<String>){
 
 
     println("The list of colours, each printed on a new line is: \n")
-    println("${colours.forEachColour()}")
+    println("${colours.forEachColour()} \n")
+
+    println("The list of colours in Descending Order: ${colours.coloursInDescendingOrder()} \n")
+    println("The first letter of each Colour occurs as follows: ${colours.countOccurrenceFirstLetter()} \n")
 
     //TODO Write Code here (below this comment) to print the list in this format:
     //    Colour: Red
