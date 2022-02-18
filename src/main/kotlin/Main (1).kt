@@ -12,9 +12,9 @@
 //  5. NOTE that you should not change the function names, parameters or return types when working on the fixes - to
 //     do so will also result in a reduced mark.
 
-private val colours = Colours();
+private val colours = Colours()
 
-fun main(args: Array<String>){
+fun main(){
 
     //TODO Use String templates i.e. ${} to insert the method calls into the actual println string.
     //TODO tidy up the printing layout so that it is neat and has a nicer UI - you can choose what you would like to do
