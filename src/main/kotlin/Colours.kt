@@ -29,7 +29,7 @@ class Colours {
     }
 
     fun coloursInAllCapitals() : List<String> {
-        return colours.map { it.toUpperCase() }
+        return colours.map { it.uppercase(Locale.getDefault()) }
     }
 
     fun coloursStartingWithLetter(letter: Char) : List<String>{
