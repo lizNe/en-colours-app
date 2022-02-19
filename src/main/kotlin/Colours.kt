@@ -1,4 +1,3 @@
-import java.util.*
 
 class Colours {
 
@@ -35,22 +34,28 @@ class Colours {
         return colours.map { it.uppercase() }
     }
 
+//    The function has a parameter (letter) passed into it that contains the variable type Char and returns a List of Strings
     fun coloursStartingWithLetter(letter: Char) : List<String>{
        return colours.filter{it.startsWith('B')}
 
     }
 
-    /* Reference: https://kotlinlang.org/docs/constructing-collections.html#invoke-functions-on-other-collections */
+//    Reference: https://kotlinlang.org/docs/constructing-collections.html#invoke-functions-on-other-collections
+//    This function has a parameter size passed into it with type int and will return a List of strings
+
     fun coloursWithSpecificNumberOfChars(size: Int) : List<String>{
         val largerThan6 = colours.filter { it.length >= 6 }
         return (largerThan6)
     }
 
-    /* Reference: https://kotlinlang.org/docs/constructing-collections.html#invoke-functions-on-other-collections */
+//     Reference: https://kotlinlang.org/docs/constructing-collections.html#invoke-functions-on-other-collections
     fun coloursWithLessCharsThan(size: Int) : List<String>{
         val lessThan6 = colours.filter { it.length < 6 }
         return (lessThan6)
     }
+
+
+//   ignoreCase ignores the case sensitivity of the word blue
 
     fun isColourInTheList(colour: String): Boolean {
         return colour.equals("BLUe", true)
