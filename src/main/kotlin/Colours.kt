@@ -14,11 +14,14 @@ class Colours {
         return colours.count()
     }
 
+
+//    returns the first element in the list
     fun firstColour() : String{
-        //TODO return the first colour in the list
         return colours.first()
     }
 
+
+//    returns the last element in the list
     fun lastColour() : String{
         //TODO return the last colour list
         return colours.last()
@@ -29,7 +32,7 @@ class Colours {
     }
 
     fun coloursInAllCapitals() : List<String> {
-        return colours.map { it.uppercase(Locale.getDefault()) }
+        return colours.map { it.uppercase() }
     }
 
     fun coloursStartingWithLetter(letter: Char) : List<String>{
@@ -62,8 +65,6 @@ class Colours {
             println("Colour: $colour")
         }
     }
-
-
 
 
 
