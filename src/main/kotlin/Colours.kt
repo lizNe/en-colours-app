@@ -62,29 +62,20 @@ class Colours {
         }
     }
 
-
-
     fun coloursInDescendingOrder() : List<String>{
         return colours.sortedDescending()
     }
 
-    /* Reference https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/each-count.html */
+//    Reference https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/each-count.html
+//    returns a map that associates the key of each group(Char) with the count of that element in each group(int)
+
     fun countOccurrenceFirstLetter(): Map<Char, Int> {
         return colours.groupingBy { it.first() }.eachCount()
 
     }
 
     fun coloursInAllLower() : List<String> {
-        return colours.map { it.lowercase(Locale.getDefault()) }
+        return colours.map { it.lowercase() }
     }
-
-
-
-
-
-
-
-    //TODO Write THREE additional functions of your choice that will perform some sort of
-    // analysis on the colours list.
 
 }
