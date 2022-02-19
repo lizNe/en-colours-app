@@ -42,7 +42,7 @@ fun main(){
     println("${colours.coloursWithLessCharsThan(6)} have less than 6 chars \n")
 
 
-    println("True or false, is blue in the list: ${colours.isColourInTheList("blue")} \n")
+    println("True or false, is blue in the list: ${colours.isColourInTheList("BLue")} \n")
 
 
     println("The list of colours, each printed on a new line is: \n")

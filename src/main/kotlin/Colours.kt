@@ -52,12 +52,8 @@ class Colours {
         return (lessThan6)
     }
 
-    fun isColourInTheList(colour : String): Boolean {
-        return if (colour.equals("blue", true)) {
-            (true)
-        } else {
-            false
-        }
+    fun isColourInTheList(colour: String): Boolean {
+        return colour.equals("BLUe", true)
     }
 
     fun forEachColour(){
